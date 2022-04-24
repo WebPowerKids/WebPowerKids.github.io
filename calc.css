@@ -1,0 +1,62 @@
+.butone{
+  background: #4d316e;
+  color: white;
+  border-style: outset;
+  border-color: #4d316e;
+  opacity: 60%;
+}
+.butone:hover{
+  opacity: 100%;
+}
+.butone:active{
+    transform: translateY(4px);
+}
+body {
+  background-color: #121212 !important;
+  font-family: "Sans Serif", Open-Sans;
+  background-image: url('wave.svg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 125%;
+}
+.main{
+  background-color: #1c1c1c;
+  width: 500px;
+  height: 325px;
+
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+  padding: 60px 20px 0px;
+  border-radius: 12px;
+  border: 2px solid #4d316e;
+  box-shadow: 2px 2px 2px 0px black;
+}
+.ab{
+  color: white;
+  padding: 1px 5px;
+  float: left;
+}
+.IO{
+  color: #4d316e;
+}
+input{
+  width: 100%;
+  padding: 8px 16px;
+  margin: 3px 0;
+  box-sizing: border-box;
+}
+input[type=text]:focus{
+  background-color: lightblue;
+}
+.Inflatia {
+  color: white;
+  padding: 1px 5px;
+}

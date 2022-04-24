@@ -1,0 +1,78 @@
+body {
+  background-color: #121212 !important;
+  font-family: "Sans Serif", Open-Sans;
+  background-image: url('wave.svg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 125%;
+}
+.a1{  color: white;
+  text-decoration: none;
+  padding: 1px 10px;
+  animation-duration: 2s;
+}
+.a1:hover{
+  text-decoration: underline;
+  animation-duration: 2s;
+}
+.a2{  color: white;
+  text-decoration: none;
+  padding: 1px 10px;
+  animation-duration: 2s;
+}
+.a2:hover{
+  text-decoration: underline;
+  animation-duration: 2s;
+}
+.links {
+  float: right;
+  margin: auto;
+  padding: 15px;
+  font-size: 14px;
+}
+header{
+  margin: auto;
+  padding: 10px;
+  height: 200px;
+  width: 70%;
+}
+header img {
+  float: left;
+  width: 70px;
+  height: 70px;
+  top: auto;
+  margin: auto;
+}
+.center{
+  width: 500px;
+  height: 300px;
+
+  position: absolute;
+  top: 50px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+}
+.buton{
+  font-family: sans-serif;
+  background-color: #2e2538;
+  border: none;
+  color: white;
+  padding: 12px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 12px;
+  opacity: 0.8;
+}
+.buton:hover {opacity: 1}
+.calc{
+  color: #4d316e;
+  font-size: 24px;
+}

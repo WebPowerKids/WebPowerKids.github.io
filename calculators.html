@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Calculatoare</title>
+  <link rel="stylesheet" href="calc.css">
+  <link rel="icon" type="image/png" href="logo.png"/>
+</head>
+<script>
+  function calcul() {
+      const num1 = document.getElementById("number1").value;
+      const num2 = 10.15;
+      var num3 = (num1*num2) / 100;
+      var roundeda = num3.toFixed(2);
+      var answer2 = +roundeda + +num1;
+      document.getElementById("valoare").value = answer2;
+  }
+</script>
+<body>
+  <div class="main">
+    <span class="ab">Salariul curent: </span><input name="number1" class="entry" id="number1" pattern="[0-9.]+" type="number" onkeypress='return event.charCode >= 48 && event.charCode <= 57' required />
+    <h3><span class="Inflatia">Inflatia curenta(%): </span><span class="IO">10.15</span></h3>
+    <br>
+    <input type="button" value="Calculeaza" class="butone" onclick="calcul()" />
+    <br>
+    <span class="ab">Salariul dupa adaugarea compensatiei: </span><input class="entry" name="valoare" id="valoare" value="" o>
+  </div>
+</body>
+</html>
